@@ -14,7 +14,7 @@ const ventures = {
     system: "Editorial calendar, content ops, audience growth",
   },
   sounds: {
-    title: "Sounds from KE",
+    title: "Sounds from Kenya",
     copy:
       "A music discovery platform turning Kenyan creative signal into stories, playlists, creator profiles, and social-native media.",
     role: "Creative Direction",
