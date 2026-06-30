@@ -5,7 +5,7 @@ const ventures = {
       "We don't pitch AI transformation. We find the thing breaking your operation and fix it.",
     role: "AI Strategy & Automation",
     system: "Business Systems Audit, agents, workflow automation",
-    url: "https://waziricollectivelabs.vercel.app",
+    url: "https://waziricollectivelabs.vercel.app/",
   },
   nairobi: {
     title: "The Nairobi Post",
@@ -13,6 +13,7 @@ const ventures = {
       "A culture and business media property built around sharper editorial packaging, repeatable publishing cadence, and distribution loops.",
     role: "Publisher",
     system: "Editorial calendar, content ops, audience growth",
+    url: "https://thenairobipost.vercel.app/",
   },
   sounds: {
     title: "Sounds from Kenya",
@@ -34,6 +35,7 @@ const ventures = {
       "AI-powered parenting companion for mothers and caregivers, providing expert guidance, milestone tracking, and instant support.",
     role: "Founder / Product Builder",
     system: "Health tech, parenting support, caregiver workflows",
+    url: "https://mamabora.lovable.app/",
   },
   vijanabora: {
     title: "Vijanabora",
@@ -49,7 +51,7 @@ const ventures = {
       "Repository intelligence for understanding codebases faster, from structure to decisions to next actions.",
     role: "AI Tool / Developer Systems",
     system: "Repository analysis, code intelligence, workflow support",
-    url: "https://gituliza-site.vercel.app",
+    url: "https://gituliza.vercel.app/",
   },
 };
 
