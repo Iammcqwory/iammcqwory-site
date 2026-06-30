@@ -5,6 +5,7 @@ const ventures = {
       "We don't pitch AI transformation. We find the thing breaking your operation and fix it.",
     role: "AI Strategy & Automation",
     system: "Business Systems Audit, agents, workflow automation",
+    url: "https://waziricollectivelabs.vercel.app",
   },
   nairobi: {
     title: "The Nairobi Post",
@@ -40,6 +41,15 @@ const ventures = {
       "Mental health advocacy for youth in Kenya and other developing places in Africa.",
     role: "Impact Venture",
     system: "Youth advocacy, mental health, social proof",
+    url: "https://vijanabora.vercel.app",
+  },
+  gituliza: {
+    title: "GitUliza",
+    copy:
+      "Repository intelligence for understanding codebases faster, from structure to decisions to next actions.",
+    role: "AI Tool / Developer Systems",
+    system: "Repository analysis, code intelligence, workflow support",
+    url: "https://gituliza-site.vercel.app",
   },
 };
 
@@ -54,6 +64,11 @@ function renderVenture(key) {
     <div>
       <h3>${venture.title}</h3>
       <p>${venture.copy}</p>
+      ${
+        venture.url
+          ? `<a class="venture-link" href="${venture.url}" target="_blank" rel="noopener">Visit ${venture.title}</a>`
+          : ""
+      }
     </div>
     <div class="venture-meta">
       <div>

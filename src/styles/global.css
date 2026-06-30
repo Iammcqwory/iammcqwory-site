@@ -112,7 +112,8 @@ a {
 }
 
 .nav-cta,
-.btn-primary {
+.btn-primary,
+.btn-whatsapp {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -129,10 +130,22 @@ a {
   white-space: nowrap;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-whatsapp {
   min-height: 44px;
   padding: 14px 28px;
   letter-spacing: 0.12em;
+}
+
+.btn-whatsapp {
+  border: 0.5px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+}
+
+.btn-whatsapp:hover {
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .nav-cta:hover,
@@ -415,7 +428,7 @@ a {
 
 .ventures-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   gap: 12px;
 }
 
@@ -466,6 +479,25 @@ a {
   font-size: 12px;
   font-weight: 300;
   line-height: 1.8;
+}
+
+.venture-link,
+.case-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: 18px;
+  border-bottom: 0.5px solid currentColor;
+  color: var(--ink);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+
+.venture-link:hover,
+.case-link:hover {
+  color: var(--accent);
 }
 
 .venture-meta {
@@ -656,6 +688,13 @@ a {
 .contact-copy p {
   max-width: 520px;
   margin-top: 18px;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
 }
 
 .contact-form {
