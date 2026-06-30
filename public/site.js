@@ -53,6 +53,14 @@ const ventures = {
     system: "Repository analysis, code intelligence, workflow support",
     url: "https://gituliza.vercel.app/",
   },
+  thinkbora: {
+    title: "ThinkBora",
+    copy:
+      "Africa's AI talent pipeline built on real work. ThinkBora trains young people in data, AI, and business innovation through live client projects.",
+    role: "Talent & Skills Venture",
+    system: "Skills, projects, careers, project-based curriculum",
+    url: "https://thinkbora.vercel.app/",
+  },
 };
 
 const navToggle = document.querySelector(".nav-toggle");
