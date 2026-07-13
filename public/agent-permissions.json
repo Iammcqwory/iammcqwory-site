@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "site": "https://iammcqwory.vercel.app/",
+  "permissions": {
+    "read": true,
+    "index": true,
+    "summarize": true,
+    "quote": true,
+    "contact": "https://wa.me/254719315905"
+  },
+  "preferredSources": ["/llms.txt", "/index.md", "/skill.md"]
+}

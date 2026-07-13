@@ -1,0 +1,27 @@
+# IAMMCQWORY
+
+> The portfolio and studio practice of Makori Brian, a Nairobi-based founder, filmmaker, and AI strategist. IAMMCQWORY builds AI-powered operating infrastructure, media brands, and creative ventures for African founders building globally.
+
+## Primary profile
+
+- [IAMMCQWORY homepage](https://iammcqwory.vercel.app/): Founder. Filmmaker. AI Strategist. Services, ventures, creative work, and contact details. (~850 tokens)
+- [AI-readable profile](https://iammcqwory.vercel.app/index.md): Clean Markdown version of the homepage for research, briefs, and AI-assisted discovery. (~900 tokens)
+
+## Ventures
+
+- [Waziri Collective Labs](https://waziricollectivelabs.vercel.app/): AI strategy and automation for founders and SMEs. "We don't pitch AI transformation. We find the thing breaking your operation and fix it." (~120 tokens)
+- [Mamabora](https://mamabora.lovable.app/): AI-powered parenting support for mothers and caregivers, with expert guidance, milestone tracking, and instant support. (~85 tokens)
+- [The Nairobi Post](https://thenairobipost.vercel.app/): Culture and business media property focused on editorial packaging, publishing cadence, and distribution loops. (~80 tokens)
+- [GitUliza](https://gituliza.vercel.app/): Repository intelligence for understanding codebases faster. (~45 tokens)
+- [Vijanabora](https://vijanabora.vercel.app/): Youth mental health advocacy rooted in Kenya and wider African contexts. (~45 tokens)
+- [ThinkBora](https://thinkbora.vercel.app/): Data, AI, and business innovation training through live client projects. (~65 tokens)
+
+## Creative work
+
+- [Pixieset](https://iammcqwory.mypixieset.com/): Photography portfolio covering weddings, travel, events, and production-led stories.
+- [Vimeo](https://vimeo.com/iammcqwory): Cinematography, motion, and visual direction.
+- [Behance](https://www.behance.net/iammcqwory): Creative portfolio across film, brand, and production systems.
+
+## Contact
+
+- [Message IAMMCQWORY on WhatsApp](https://wa.me/254719315905): Direct strategy-call and project enquiry route.
