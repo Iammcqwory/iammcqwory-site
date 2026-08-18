@@ -6,10 +6,17 @@ IAMMCQWORY is the studio practice of Makori Brian, a Nairobi-based founder, film
 
 ## Focus
 
+Makori Brian is a Nairobi-based AI consultant and strategist for African founders and SMEs.
+
 - Business systems audits
 - AI workflow automation
+- AI agents for small business operations
 - Creative production systems
 - Data and decision intelligence
+
+## Business Systems Audits & AI Strategy Consulting in Nairobi
+
+IAMMCQWORY helps founders identify the operational bottleneck that is costing time, attention, or growth, then turns that bottleneck into a practical systems roadmap. The work is designed for African founders, SMEs, media operators, and creative businesses.
 
 ## Waziri Collective Labs
 

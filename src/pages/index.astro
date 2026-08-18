@@ -1,18 +1,56 @@
 ---
 import "../styles/global.css";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      name: "Makori Brian",
+      alternateName: "IAMMCQWORY",
+      jobTitle: "Founder, Filmmaker, and AI Strategist",
+      description:
+        "Nairobi-based AI consultant and strategist building practical systems and ventures for African founders and SMEs.",
+      address: { "@type": "PostalAddress", addressLocality: "Nairobi", addressCountry: "KE" },
+      url: "https://iammcqwory.vercel.app/",
+      sameAs: [
+        "https://www.behance.net/iammcqwory",
+        "https://vimeo.com/iammcqwory",
+        "https://iammcqwory.mypixieset.com/",
+        "https://linktr.ee/iammcqwory",
+        "https://github.com/Iammcqwory"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      name: "Waziri Collective Labs",
+      url: "https://waziricollectivelabs.vercel.app/",
+      areaServed: ["Kenya", "Africa"],
+      description:
+        "AI strategy, business systems audits, workflow automation, creative production systems, and data intelligence for founders and SMEs."
+    },
+    {
+      "@type": "WebSite",
+      name: "IAMMCQWORY",
+      url: "https://iammcqwory.vercel.app/",
+      description:
+        "Portfolio and studio practice of Makori Brian, a Nairobi-based founder, filmmaker, and AI strategist."
+    }
+  ]
+};
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>IAMMCQWORY | Founder, Filmmaker & AI Strategist in Nairobi</title>
+    <title>Makori Brian | AI Consultant & Strategist in Nairobi</title>
     <meta
       name="description"
-      content="Nairobi-based founder, filmmaker, and AI strategist building practical systems and ventures for African founders going global."
+      content="Makori Brian is a Nairobi-based AI consultant offering business systems audits, workflow automation, and AI agents for African founders and SMEs."
     />
     <link rel="canonical" href="https://iammcqwory.vercel.app/" />
-    <meta property="og:title" content="IAMMCQWORY | Founder, Filmmaker & AI Strategist" />
+    <meta property="og:title" content="Makori Brian | AI Consultant & Strategist in Nairobi" />
     <meta
       property="og:description"
       content="Founder. Filmmaker. AI Strategist. Nairobi-based, African-founder-building-globally."
@@ -20,44 +58,18 @@ import "../styles/global.css";
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://iammcqwory.vercel.app/" />
     <meta property="og:site_name" content="IAMMCQWORY" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="IAMMCQWORY | Founder, Filmmaker & AI Strategist" />
+    <meta property="og:image" content="https://iammcqwory.vercel.app/og-image.png" />
+    <meta property="og:image:alt" content="IAMMCQWORY — Makori Brian, AI Consultant and Filmmaker in Nairobi" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Makori Brian | AI Consultant & Strategist in Nairobi" />
     <meta name="twitter:description" content="Nairobi-based founder, filmmaker, and AI strategist building systems and stories for African founders going global." />
+    <meta name="twitter:image" content="https://iammcqwory.vercel.app/og-image.png" />
     <meta name="theme-color" content="#0a0a0a" />
     <link
       rel="icon"
       href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="%230a0a0a"/><text x="9" y="39" fill="%23f5f2ec" font-family="Arial" font-size="18" font-weight="900">MQ</text></svg>'
     />
-    <script type="application/ld+json" is:inline>
-      {JSON.stringify({
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "Person",
-            name: "Makori Brian",
-            alternateName: "IAMMCQWORY",
-            jobTitle: "Founder, Filmmaker, and AI Strategist",
-            description: "Nairobi-based founder, filmmaker, and AI strategist building operating systems, media brands, and creative ventures for African founders going global.",
-            address: { "@type": "PostalAddress", addressLocality: "Nairobi", addressCountry: "KE" },
-            url: "https://iammcqwory.vercel.app/",
-            sameAs: ["https://www.behance.net/iammcqwory", "https://vimeo.com/iammcqwory", "https://iammcqwory.mypixieset.com/", "https://linktr.ee/iammcqwory"]
-          },
-          {
-            "@type": "ProfessionalService",
-            name: "Waziri Collective Labs",
-            url: "https://waziricollectivelabs.vercel.app/",
-            areaServed: ["Kenya", "Africa"],
-            description: "AI strategy, business systems audits, workflow automation, creative production systems, and data intelligence for founders and SMEs."
-          },
-          {
-            "@type": "WebSite",
-            name: "IAMMCQWORY",
-            url: "https://iammcqwory.vercel.app/",
-            description: "Portfolio and studio practice of Makori Brian, a Nairobi-based founder, filmmaker, and AI strategist."
-          }
-        ]
-      })}
-    </script>
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
   </head>
   <body>
     <div class="site">
@@ -199,7 +211,7 @@ import "../styles/global.css";
 
         <section class="section reveal" id="labs">
           <div class="section-header">
-            <h2 class="section-title">What I build</h2>
+            <h2 class="section-title">Business Systems Audits &amp; AI Strategy Consulting in Nairobi</h2>
             <span class="section-num">01 / 04</span>
           </div>
           <div class="services-grid">

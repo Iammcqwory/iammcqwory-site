@@ -7,6 +7,11 @@
 - [IAMMCQWORY homepage](https://iammcqwory.vercel.app/): Founder. Filmmaker. AI Strategist. Services, ventures, creative work, and contact details. (~850 tokens)
 - [AI-readable profile](https://iammcqwory.vercel.app/index.md): Clean Markdown version of the homepage for research, briefs, and AI-assisted discovery. (~900 tokens)
 
+## Core services
+
+- Business systems audits and AI strategy consulting in Nairobi: Find the operational bottleneck, map the system, and create a practical roadmap for founders and SMEs.
+- Workflow automation and AI agents: Build lightweight automations, agents, integrations, and data pipelines for small-business operations.
+
 ## Ventures
 
 - [Waziri Collective Labs](https://waziricollectivelabs.vercel.app/): AI strategy and automation for founders and SMEs. "We don't pitch AI transformation. We find the thing breaking your operation and fix it." (~120 tokens)
