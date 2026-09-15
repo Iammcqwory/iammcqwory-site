@@ -6,6 +6,7 @@
 
 - [IAMMCQWORY homepage](https://iammcqwory.vercel.app/): Founder. Filmmaker. AI Strategist. Services, ventures, creative work, and contact details. (~850 tokens)
 - [AI-readable profile](https://iammcqwory.vercel.app/index.md): Clean Markdown version of the homepage for research, briefs, and AI-assisted discovery. (~900 tokens)
+- [Creative services](https://iammcqwory.vercel.app/creative#packages): Photography, cinematography, live performance coverage, artist content, campaign assets, hospitality storytelling, and short-form reels by Makori Brian in Nairobi. (~650 tokens)
 
 ## Core services
 
