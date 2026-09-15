@@ -65,6 +65,15 @@ const structuredData = {
     <meta name="twitter:description" content="Nairobi-based founder, filmmaker, and AI strategist building systems and stories for African founders going global." />
     <meta name="twitter:image" content="https://iammcqwory.vercel.app/og-image.png" />
     <meta name="theme-color" content="#0a0a0a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" /></noscript>
     <link
       rel="icon"
       href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="%230a0a0a"/><text x="9" y="39" fill="%23f5f2ec" font-family="Arial" font-size="18" font-weight="900">MQ</text></svg>'
@@ -75,7 +84,7 @@ const structuredData = {
     <div class="site">
       <nav class="nav" aria-label="Primary navigation">
         <a class="nav-logo" href="#">IAMMCQWORY</a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
           <span></span>
           <span></span>
         </button>
@@ -178,7 +187,7 @@ const structuredData = {
         </div>
 
         <section class="ventures reveal" id="ventures">
-          <div class="ventures-label">Bora International Group Portfolio</div>
+          <h2 class="ventures-label">Bora International Group Portfolio</h2>
           <p class="portfolio-line">Media, health tech, fintech, fashion, youth advocacy.</p>
           <div class="ventures-grid" id="venturesGrid" role="tablist" aria-label="Portfolio companies">
             <button class="venture-pill active" type="button" role="tab" aria-selected="true" data-venture="waziri">
@@ -412,7 +421,7 @@ const structuredData = {
               </a>
             </div>
           </div>
-          <form class="contact-form" action="mailto:hello@iammcqwory.studio" method="post" enctype="text/plain">
+          <form class="contact-form" id="contactForm">
             <label>
               Name
               <input name="name" type="text" autocomplete="name" />

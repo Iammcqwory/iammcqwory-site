@@ -96,13 +96,29 @@ function renderVenture(key) {
 navToggle.addEventListener("click", () => {
   const isOpen = navLinks.classList.toggle("is-open");
   navToggle.setAttribute("aria-expanded", String(isOpen));
+  navToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
 });
 
 navLinks.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("is-open");
     navToggle.setAttribute("aria-expanded", "false");
+    navToggle.setAttribute("aria-label", "Open navigation");
   });
+});
+
+const contactForm = document.getElementById("contactForm");
+
+contactForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const formData = new FormData(contactForm);
+  const name = formData.get("name")?.toString().trim() || "Not provided";
+  const email = formData.get("email")?.toString().trim() || "Not provided";
+  const brief = formData.get("brief")?.toString().trim() || "Not provided";
+  const message = `New IAMMCQWORY project brief\n\nName: ${name}\nEmail: ${email}\nWhat we are systemizing: ${brief}`;
+
+  window.open(`https://wa.me/254719315905?text=${encodeURIComponent(message)}`, "_blank", "noopener");
 });
 
 venturesGrid.querySelectorAll(".venture-pill").forEach((pill) => {
