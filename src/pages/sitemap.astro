@@ -1,0 +1,97 @@
+---
+import "../styles/global.css";
+
+const pageTitle = "Sitemap | IAMMCQWORY";
+const pageDescription =
+  "Browse the IAMMCQWORY site, creative services, portfolio ventures, and contact routes for Makori Brian in Nairobi.";
+
+const sitePages = [
+  ["Homepage", "/", "Founder, filmmaker, and AI strategist."],
+  ["Creative services & packages", "/creative", "Photography, cinematography, production packages, and booking."],
+  ["Business systems audits", "/#labs", "AI strategy, audits, workflow automation, and data intelligence."],
+  ["Selected work", "/#selected-work", "A closer view of the ventures and systems being built."],
+  ["Creative work", "/#creative", "Photography, cinematography, content systems, and portfolio links."],
+  ["Contact", "/#contact", "Book a strategy call or send a production brief."],
+];
+
+const ventures = [
+  ["Waziri Collective Labs", "https://waziricollectivelabs.vercel.app/", "AI strategy and business systems."],
+  ["The Nairobi Post", "https://thenairobipost.vercel.app/", "Culture and business media."],
+  ["Mamabora", "https://mamabora.lovable.app/", "Parenting support for mothers and caregivers."],
+  ["Vijanabora", "https://vijanabora.vercel.app/", "Youth mental health advocacy in Kenya."],
+  ["GitUliza", "https://gituliza.vercel.app/", "Repository intelligence for developers."],
+  ["ThinkBora", "https://thinkbora.vercel.app/", "Africa's AI talent pipeline built on real work."],
+];
+
+const portfolio = [
+  ["Pixieset", "https://iammcqwory.mypixieset.com/", "Photography portfolio."],
+  ["Vimeo", "https://vimeo.com/iammcqwory", "Films, motion, and visual direction."],
+  ["Behance", "https://www.behance.net/iammcqwory", "Film, brand, editorial, and production work."],
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href="https://iammcqwory.vercel.app/sitemap" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iammcqwory.vercel.app/sitemap" />
+    <meta property="og:image" content="https://iammcqwory.vercel.app/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" /></noscript>
+  </head>
+  <body>
+    <div class="site">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav-logo" href="/">IAMMCQWORY</a>
+        <ul class="nav-links nav-links-static">
+          <li><a href="/#work">Work</a></li>
+          <li><a href="/#ventures">Ventures</a></li>
+          <li><a href="/#labs">Waziri Collective Labs</a></li>
+          <li><a href="/creative">Creative</a></li>
+        </ul>
+        <a class="nav-cta" href="https://wa.me/254719315905" target="_blank" rel="noopener">Work with me</a>
+      </nav>
+
+      <main class="sitemap-page">
+        <section class="sitemap-hero">
+          <div class="hero-eyebrow">IAMMCQWORY / SITE MAP</div>
+          <h1>Everything, clearly mapped.</h1>
+          <p>Founder. Filmmaker. AI Strategist. Nairobi-based, building systems and stories for African founders going global.</p>
+        </section>
+
+        <section class="sitemap-section" aria-labelledby="site-pages-heading">
+          <div class="section-header"><h2 class="section-title" id="site-pages-heading">Site pages</h2><span class="section-num">01 / 03</span></div>
+          <div class="sitemap-list">
+            {sitePages.map(([title, url, description]) => <a href={url}><strong>{title}</strong><span>{description}</span><b aria-hidden="true">→</b></a>)}
+          </div>
+        </section>
+
+        <section class="sitemap-section" aria-labelledby="ventures-heading">
+          <div class="section-header"><h2 class="section-title" id="ventures-heading">Bora International Group portfolio</h2><span class="section-num">02 / 03</span></div>
+          <div class="sitemap-list">
+            {ventures.map(([title, url, description]) => <a href={url} target="_blank" rel="noopener"><strong>{title}</strong><span>{description}</span><b aria-hidden="true">↗</b></a>)}
+          </div>
+        </section>
+
+        <section class="sitemap-section" aria-labelledby="portfolio-heading">
+          <div class="section-header"><h2 class="section-title" id="portfolio-heading">Creative portfolio</h2><span class="section-num">03 / 03</span></div>
+          <div class="sitemap-list">
+            {portfolio.map(([title, url, description]) => <a href={url} target="_blank" rel="noopener"><strong>{title}</strong><span>{description}</span><b aria-hidden="true">↗</b></a>)}
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer"><div class="footer-left">IAMMCQWORY © 2026</div><a class="footer-right" href="/sitemap" aria-current="page">Sitemap</a></footer>
+    </div>
+  </body>
+</html>
